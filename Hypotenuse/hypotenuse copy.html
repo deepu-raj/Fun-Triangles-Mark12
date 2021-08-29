@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" />
-    <title>Fun With Triangles</title>
+    <link href="hypotenuse.css" rel="stylesheet" />
+    <title>Hypotenuse Calculation</title>
 </head>
 <body>
-    <h1>Angles of Triangles</h1>
-    <div class= "label">Angle 1</div>
-    <input class="angle" type="number">
-    <div class="label">Angle 2</div>
-    <input class= "angle" type="number">
-    <div class="label">Angle 3</div>
-    <input class= "angle" type="number">
+    <h1>Calculate Hypotenuse of a triangle</h1>
+    <div class= "label">Enter base value (a) = </div>
+    <input id="base" type="number">
+    <div class="label">Enter height value (b) = </div>
+    <input id = "height" type="number">
+    
 <div>
     <button id = "check-btn"> Check </button>
 </div>
-    
-    <div id = "errorMsg">
-            
-    </div>
+<h1>Hypotenuse formula</h1>
+<h3>√(base² + height²)</h3>   
+<div id = "errorMsg"></div>
     
    
 
@@ -60,6 +58,6 @@
 
 
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="hypotenuse.js"></script>
 </body>
 </html>

@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" />
-    <title>Area of triangle</title>
+    <link href="hypotenuse.css" rel="stylesheet" />
+    <title>Hypotenuse Calculation</title>
 </head>
 <body>
-    <h1>Calculate area of triangle</h1>
-    <div class= "label">Enter first side (a) = </div>
-    <input id="side1" type="number">
-    <div class="label">Enter second side (b) = </div>
-    <input id = "side2" type="number">
-    <div class="label">Enter third side (b) = </div>
-    <input id = "side3" type="number">
+  <nav class="container navigation">
+    <div class="nav-brand">Fun Triangles</div>
+    <ul class="list-nonbullet nav-elements">
+        <li class=" list-inline">
+            <a class="link" href="/">Triangle Quiz</a>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="angleCheck.html">Angle Check</a>
+        </li>
+        <li class="list-inline">
+          <a class="link" href="area.html">Calculate Area</a>
+      </li>
+      <li class="list-inline">
+        <a class="link link-active" href="hypotenuse.html">Calculate Hypotenuse</a>
+    </li>
+    </ul>
+</nav>
+    <h1>Calculate Hypotenuse of a triangle</h1>
+    <div class= "label">Enter base value (a) = </div>
+    <input id="base" type="number">
+    <div class="label">Enter height value (b) = </div>
+    <input id = "height" type="number">
     
 <div>
     <button id = "check-btn"> Check </button>
 </div>
- 
+<h1>Hypotenuse formula</h1>
+<h3>√(base² + height²)</h3>   
 <div id = "errorMsg"></div>
     
    
@@ -59,6 +75,6 @@
 
 
 
-    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="hypotenuse.js"></script>
 </body>
 </html>

@@ -1,0 +1,169 @@
+body{
+    text-align:center;
+    margin:auto;
+    
+}
+
+h1{ 
+    margin:2rem;
+    color: #6f00ff;
+}
+#instructions{
+    font-size: x-large;
+    margin:2rem;
+
+}
+
+table{
+    text-align: center;
+    margin:auto;
+    width:50%;
+    margin-top: 1rem;
+    color: #6f00ff;
+    margin-bottom: 4rem;
+       
+}
+
+
+#angle1, #angle2, #angle3,.angle{
+    
+        font-size: 14px;        
+        padding: 0.6rem 1rem;
+        margin: 1rem;
+        border: 2px solid #6f00ff;
+        border-radius: 0.5rem;
+        width: 100%;
+        max-width: 258px;
+}
+.errorMsg {
+    margin:1rem;
+
+}
+#check-btn{
+    background: #6f00ff;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+
+}
+.label{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+#errorMsg{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 2rem;
+    
+}
+caption{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color:black;
+}
+
+footer {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 40px;
+    padding: 0.2rem;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+  :root{
+      --primary-color:#6C63FF;
+      --gray-color:#6B7280;
+      --off-white:#D1D5DB;
+  }
+  body{
+      font-family: 'Open Sans', sans-serif;
+      margin:0px;
+  }
+   
+  .container{
+      padding: 1rem 1rem;
+      
+  }
+  
+  .container-center{
+      max-width: 600px;
+      margin:auto;
+  }
+  
+  .link{
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+  }
+  .link-primary{
+      background-color: var(--primary-color);
+      border-radius: 00.5rem;   
+      color: white;
+  }
+  .link-secondary{
+      color: var(--primary-color);
+      border-radius: 00.5rem;   
+      border:1px solid var(--primary-color);
+  }
+  hr{
+      margin :2rem 0rem;
+  }
+  .list-nonbullet{
+      list-style: none;
+  }
+  .list-inline{
+      display: inline;
+      padding:0.5rem 1rem;
+  }
+  .navigation{
+      background-color: var(--primary-color);
+      color:white;
+      padding: 0.5rem 1rem;
+      border-bottom-left-radius:2rem;
+      
+  }
+  
+  .navigation .link{
+      color:white;
+  }
+  
+  .navigation .nav-elements{
+      text-align: right;
+  }
+  
+  .nav-brand{
+      font-weight: bold;
+      font-size: xx-large;
+      padding-top: 2rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      text-align: left;
+  }
+  .navigation .link-active{
+      font-weight: bold;
+  }
+  
